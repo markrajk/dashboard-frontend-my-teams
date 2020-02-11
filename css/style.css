@@ -139,6 +139,7 @@ body {
     .results-body .graph-card {
       min-height: 37.8vh;
       height: 37.8vh;
+      min-height: 36.4rem;
       border-radius: 4px;
       border: solid 1.5px #eaebee; }
       .results-body .graph-card-footer {
@@ -192,13 +193,18 @@ body {
             .results-body .graph-card-body .bar-fill-red {
               background: linear-gradient(#fa2020, #ef0049); }
           .results-body .graph-card-body .bar-info {
+            font-family: "Open Sans", sans-serif;
             position: absolute;
             white-space: nowrap;
             left: 0;
             bottom: -7%;
             font-size: 1.2rem;
+            font-weight: 700;
             color: rgba(23, 23, 23, 0.6);
             transform: translate(-15%, 100%); }
+            @media (max-width: 1199px) {
+              .results-body .graph-card-body .bar-info {
+                font-size: 1rem; } }
             @media (max-width: 991px) {
               .results-body .graph-card-body .bar-info {
                 font-size: 1rem; } }
