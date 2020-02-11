@@ -197,7 +197,10 @@ body {
       margin: 0;
       font-size: 1.5rem;
       font-weight: 600;
-      color: #6e747e;
+      
+      & a {
+        color: #6e747e;
+      }
 
       & .subtitle {
         color: #1a173b;

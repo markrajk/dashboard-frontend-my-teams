@@ -109,8 +109,9 @@ body {
     height: 2rem;
     margin: 0;
     font-size: 1.5rem;
-    font-weight: 600;
-    color: #6e747e; }
+    font-weight: 600; }
+    .results-header-logout a {
+      color: #6e747e; }
     .results-header-logout .subtitle {
       color: #1a173b; }
     .results-header-logout i {
