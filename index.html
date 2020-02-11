@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dahsboard | My teams</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Nunito:300,400|Open+Sans:400,600,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- MAIN WRAPPER -->
+    <main class="main d-flex">
+
+        <!-- SIDEBAR SECTION-->
+        <div class="sidebar d-flex flex-column bg-white">
+            <div class="sidebar-info d-flex align-items-center">
+                <img class="sidebar-info-img" src="img/profile-pic.png" alt="profile picture">
+                <div class="d-flex flex-column">
+                    <p class="sidebar-info-name m-0">Andrew<span class="align-middle"></span></p>
+                    <p class="sidebar-info-title m-0">Boss</p>
+                </div>
+            </div>
+
+            <div class="sidebar-group">
+                <h3>GIVE FEEDBACK</h3>
+                <select name="sidebar-select" id="sidebar-select">
+                    <option value="one">To you people</option>
+                </select>
+            </div>
+
+            <div class="sidebar-body">
+                <div class="sidebar-group">
+                    <h3>TEAMS</h3>
+                    <ul class="list-unstyled">
+                        <li class="active"><a href="#">Results </a></li>
+                        <li><a href="#">Export results </a></li>
+                        <li><a href="#">Manage teams </a></li>
+                        <li><a href="#">Create a new team </a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-group">
+                    <h3>PEOPLE</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Results </a></li>
+                        <li><a href="#">Export results </a></li>
+                        <li><a href="#">Manage people</a></li>
+                        <li><a href="#">Invite new people </a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-group">
+                    <h3>ME</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Results </a></li>
+                        <li><a href="#">My account </a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-group">
+                    <h3>ADMIN</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">User/team register </a></li>
+                        <li><a href="#">Company Profile </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- RESULTS SECTION -->
+        <div class="results">
+            <div class="results-header">
+                <div class="results-header-logout d-flex justify-content-between">
+                    <p class="subtitle mb-0">Teams</p>
+                    <p class="text-right align-middle">Logout <i class="material-icons align-middle">exit_to_app</i></p>
+                </div>
+                <h2 class="mt-1 align-middle">Overview</h2>
+                <div class="d-flex justify-content-between align-items-center">
+                    <p class="choose"><span class="active"><a href="#">My teams</a></span> <span class="mx-1">|</span>
+                        <a href="#">All teams</a></p>
+                    <button>Remove team from favourites</button>
+                </div>
+            </div>
+
+            <div class="results-body">
+
+                <div class="row">
+                    <div class="col-12 col-md-6 col-xl-4 mb-5">
+                        <div class="graph-card bg-white graph-team-marketing">
+                            <div class="graph-card-header">
+                                <h3>Team Marketing</h3>
+                                <p class="choose"><span class="active"><a href="#">My teams</a></span> <span class="mx-1">|</span> <a href="#">All teams</a></p>
+                            </div>
+                            <div class="graph-card-body">
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-red" style="height: 30%;"></div>
+                                    <div class="bar-info">WK 1</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-red" style="height: 38%;"></div>
+                                    <div class="bar-info">WK 2</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-orange" style="height: 45%;"></div>
+                                    <div class="bar-info">WK 3</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 49%;"></div>
+                                    <div class="bar-info">WK 4</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 70%;"></div>
+                                    <div class="bar-info">WK 5</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 60%;"></div>
+                                    <div class="bar-info">WK 6</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 55%;"></div>
+                                    <div class="bar-info">WK 7</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-orange" style="height: 48%;"></div>
+                                    <div class="bar-info">WK 8</div>
+                                </div>
+                            </div>
+                            <div class="graph-card-footer d-flex justify-content-center align-items-center">
+                                <button class="d-flex justify-content-center align-items-center">View Team</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xl-4 mb-5">
+                        <div class="graph-card bg-white graph-team-marketing">
+                            <div class="graph-card-header">
+                                <h3>Team Sales</h3>
+                                <p class="choose"><span class="active"><a href="#">My teams</a></span> <span class="mx-1">|</span> <a href="#">All teams</a></p>
+                            </div>
+                            <div class="graph-card-body">
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-red" style="height: 30%;"></div>
+                                    <div class="bar-info">WK 1</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-red" style="height: 38%;"></div>
+                                    <div class="bar-info">WK 2</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-orange" style="height: 45%;"></div>
+                                    <div class="bar-info">WK 3</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 49%;"></div>
+                                    <div class="bar-info">WK 4</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 70%;"></div>
+                                    <div class="bar-info">WK 5</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 60%;"></div>
+                                    <div class="bar-info">WK 6</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 55%;"></div>
+                                    <div class="bar-info">WK 7</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-orange" style="height: 48%;"></div>
+                                    <div class="bar-info">WK 8</div>
+                                </div>
+                            </div>
+                            <div class="graph-card-footer d-flex justify-content-center align-items-center">
+                                <button class="d-flex justify-content-center align-items-center">View Team</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xl-4 mb-5">
+                        <div class="graph-card bg-white graph-team-marketing">
+                            <div class="graph-card-header">
+                                <h3>Team UX/UI</h3>
+                                <p class="choose"><span class="active"><a href="#">My teams</a></span> <span class="mx-1">|</span> <a href="#">All teams</a></p>
+                            </div>
+                            <div class="graph-card-body">
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-red" style="height: 30%;"></div>
+                                    <div class="bar-info">WK 1</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-red" style="height: 38%;"></div>
+                                    <div class="bar-info">WK 2</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-orange" style="height: 45%;"></div>
+                                    <div class="bar-info">WK 3</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 49%;"></div>
+                                    <div class="bar-info">WK 4</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 70%;"></div>
+                                    <div class="bar-info">WK 5</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 60%;"></div>
+                                    <div class="bar-info">WK 6</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 55%;"></div>
+                                    <div class="bar-info">WK 7</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-orange" style="height: 48%;"></div>
+                                    <div class="bar-info">WK 8</div>
+                                </div>
+                            </div>
+                            <div class="graph-card-footer d-flex justify-content-center align-items-center">
+                                <button class="d-flex justify-content-center align-items-center">View Team</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xl-4 mb-5">
+                        <div class="graph-card bg-white graph-team-marketing">
+                            <div class="graph-card-header">
+                                <h3>Team Sales</h3>
+                                <p class="choose"><span class="active"><a href="#">My teams</a></span> <span class="mx-1">|</span> <a href="#">All teams</a></p>
+                            </div>
+                            <div class="graph-card-body">
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-red" style="height: 30%;"></div>
+                                    <div class="bar-info">WK 1</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-red" style="height: 38%;"></div>
+                                    <div class="bar-info">WK 2</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-orange" style="height: 45%;"></div>
+                                    <div class="bar-info">WK 3</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 49%;"></div>
+                                    <div class="bar-info">WK 4</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 70%;"></div>
+                                    <div class="bar-info">WK 5</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 60%;"></div>
+                                    <div class="bar-info">WK 6</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 55%;"></div>
+                                    <div class="bar-info">WK 7</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-orange" style="height: 48%;"></div>
+                                    <div class="bar-info">WK 8</div>
+                                </div>
+                            </div>
+                            <div class="graph-card-footer d-flex justify-content-center align-items-center">
+                                <button class="d-flex justify-content-center align-items-center">View Team</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xl-4 mb-5">
+                        <div class="graph-card bg-white graph-team-marketing">
+                            <div class="graph-card-header">
+                                <h3>Team Management</h3>
+                                <p class="choose"><span class="active"><a href="#">My teams</a></span> <span class="mx-1">|</span> <a href="#">All teams</a></p>
+                            </div>
+                            <div class="graph-card-body">
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-red" style="height: 30%;"></div>
+                                    <div class="bar-info">WK 1</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-red" style="height: 38%;"></div>
+                                    <div class="bar-info">WK 2</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-orange" style="height: 45%;"></div>
+                                    <div class="bar-info">WK 3</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 49%;"></div>
+                                    <div class="bar-info">WK 4</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 70%;"></div>
+                                    <div class="bar-info">WK 5</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 60%;"></div>
+                                    <div class="bar-info">WK 6</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 55%;"></div>
+                                    <div class="bar-info">WK 7</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-orange" style="height: 48%;"></div>
+                                    <div class="bar-info">WK 8</div>
+                                </div>
+                            </div>
+                            <div class="graph-card-footer d-flex justify-content-center align-items-center">
+                                <button class="d-flex justify-content-center align-items-center">View Team</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xl-4 mb-5">
+                        <div class="graph-card bg-white graph-team-marketing">
+                            <div class="graph-card-header">
+                                <h3>Team Cleaning</h3>
+                                <p class="choose"><span class="active"><a href="#">My teams</a></span> <span class="mx-1">|</span> <a href="#">All teams</a></p>
+                            </div>
+                            <div class="graph-card-body">
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-red" style="height: 30%;"></div>
+                                    <div class="bar-info">WK 1</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-red" style="height: 38%;"></div>
+                                    <div class="bar-info">WK 2</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-orange" style="height: 45%;"></div>
+                                    <div class="bar-info">WK 3</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 49%;"></div>
+                                    <div class="bar-info">WK 4</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 70%;"></div>
+                                    <div class="bar-info">WK 5</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 60%;"></div>
+                                    <div class="bar-info">WK 6</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-green" style="height: 55%;"></div>
+                                    <div class="bar-info">WK 7</div>
+                                </div>
+                                <div class="bar">
+                                    <div class="bar-fill bar-fill-orange" style="height: 48%;"></div>
+                                    <div class="bar-info">WK 8</div>
+                                </div>
+                            </div>
+                            <div class="graph-card-footer d-flex justify-content-center align-items-center">
+                                <button class="d-flex justify-content-center align-items-center">View Team</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
